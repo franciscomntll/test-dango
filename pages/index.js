@@ -22,14 +22,14 @@ function HomePage() {
                         label="Title"
                         value={title}
                         onChange={handleChangeTitle}
-                        helperText={"Here you can edit the card titles"} />
+                        helperText={"Here you can edit the content of the card titles"} />
                     <RangeField
                         label="Font size"
                         value={fontSize}
                         min="10"
                         max="34"
                         onChange={handleChangeFontSize}
-                        helperText={"Here you can edit font size of titles"} />
+                        helperText={"Here you can edit the font size of the titles"} />
                     <TotalAmount
                         value={data.length} />
                 </div>
