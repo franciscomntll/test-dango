@@ -12,7 +12,7 @@ export const Card = ({ title, fontSize }) => {
 
     return (
         <>
-            <div className="w-60 border p-5 mx-auto text-center border-gray-200 shadow-md rounded-xl gap-4 flex flex-col">
+            <div className="w-full border p-5 mx-auto text-center border-gray-200 shadow-md rounded-xl gap-4 flex flex-col">
                 <img className="w-full h-40 rounded-xl bg-gray-300 object-cover object-center" src="/photo.webp" />
                 <h2 className={`hola font-bold text-gray-900`} >
                     {title}

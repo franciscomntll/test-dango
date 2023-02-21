@@ -15,9 +15,9 @@ function HomePage() {
     return (
         <div className="max-w-screen-lg py-20 mx-auto inset-x-0 flex flex-col gap-6 px-5 lg:px-0">
             <h1 className="text-4xl font-semibold text-orange-600 text-center">Test for Dango Digital</h1>
-            <div className="p-5 border rounded-xl border-gray-200">
+            <div className="p-5 border rounded-xl border-gray-200 flex flex-col items-center md:items-start w-full  ">
                 <h3 className="text-xl text-gray-300 font-light">Controls:</h3>
-                <div className="flex gap-4 flex-wrap justify-center gap-12">
+                <div className="flex-col w-full md:flex-row items-center flex justify-center gap-12">
                     <InputField
                         label="Title"
                         value={title}
